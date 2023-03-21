@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(to right, #434343 0%, rgb(23, 23, 23) 100%);
+  color: white;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+}
+#time-panel {
+  box-shadow: 1px 1px black;
+  background-color: rgba(102, 99, 99, 0.2);
+}
+#time-display {
+  align-items: baseline;
+  margin: auto;
+}
+#HH_MM_SS {
+  text-align: right;
+  font-size: 4rem;
+}
+
+#milisec {
+  font-size: 1.5rem;
+}
+#pause-row {
+  display: none;
+}
+button {
+  border: 0 solid red;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: rgb(23, 22, 22);
+  color: white;
+}
+button:hover {
+  box-shadow: 1px 2px 2px rgb(113, 105, 105);
+}
+
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+.active {
+  box-shadow: 1px 2px 2px rgb(113, 105, 105);
+}
+#action-log {
+  margin: 2%;
+  font-size: 2rem;
+}
